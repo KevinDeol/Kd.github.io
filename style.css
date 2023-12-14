@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 20px;
+    margin: 20px;
+}
+
+nav a {
+
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    height: 100px;
+    width: 50px;
+}

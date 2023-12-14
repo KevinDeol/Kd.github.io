@@ -1,24 +1,16 @@
-* {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    padding: 20px;
-    margin: 20px;
+.welcome-message h1 {
+    color: #333;
+    font-size: 2em;
 }
 
-nav a {
-
-    text-decoration: none;
-}
-
-.logo {
-    position: relative;
-    height: 100px;
-    width: 50px;
+.welcome-message p {
+    color: #666;
+    font-size: 1.2em;
 }
